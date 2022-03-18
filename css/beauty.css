@@ -146,9 +146,16 @@ nav .menu
         max-width: 100%;
         padding: 0 7px;
     }
+
+        .menu .logo a
+    {
+        font-size: 1rem;
+
+    }
     .menu ul li a
     {
          padding: 8px  9px;
+         font-size: 0.5rem;
 
     }
         .center .title
@@ -163,7 +170,7 @@ nav .menu
     
     .center .buttons button
     {
-        width: 18%; 
+        width: 35%; 
         font-size: 1rem;
     }
 
