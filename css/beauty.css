@@ -138,3 +138,34 @@ nav .menu
     background: antiquewhite;
     color: black;
 }
+
+@media screen and (max-width: 800px)
+{
+    nav .menu
+    {
+        max-width: 100%;
+        padding: 0 7px;
+    }
+    .menu ul li a
+    {
+         padding: 8px  9px;
+
+    }
+        .center .title
+    {
+        font-size: 2rem;
+    }
+
+    .center .sub_title
+    {
+        font-size: 1rem;
+    }
+    
+    .center .buttons button
+    {
+        width: 18%; 
+        font-size: 1rem;
+    }
+
+
+}
