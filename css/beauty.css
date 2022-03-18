@@ -144,7 +144,8 @@ nav .menu
     nav .menu
     {
         max-width: 100%;
-        padding: 0 7px;
+        padding: 0 2px;
+        justify-content:space-around;
     }
 
         .menu .logo a
@@ -152,9 +153,15 @@ nav .menu
         font-size: 1rem;
 
     }
+
+    .menu ul li
+{
+    margin-left: 3px;
+}
+
     .menu ul li a
     {
-         padding: 8px  9px;
+         padding: 8px  4px;
          font-size: 0.5rem;
 
     }
